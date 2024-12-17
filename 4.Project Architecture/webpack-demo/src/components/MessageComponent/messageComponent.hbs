@@ -1,0 +1,9 @@
+    <div class="message-component-container">
+        <h3>List of skills</h3>
+        <ul>
+        ${skills.map(x => '<skill-card name="' + x +'"></skill-card>').join(' ')}
+        {{#each skills}}
+        <skill-card name="{{this}}"></skill-card>
+        {{/each}}
+        </ul>
+    </div>

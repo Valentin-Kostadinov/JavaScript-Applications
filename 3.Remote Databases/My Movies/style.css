@@ -1,0 +1,7 @@
+.movie-item:hover {
+  background-color: bisque;
+}
+
+.movie-item {
+  cursor: pointer;
+}

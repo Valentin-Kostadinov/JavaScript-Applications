@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messenger</title>
+  </head>
+  <body>
+    <div id="main">
+      <textarea
+        id="messages"
+        name="messages"
+        cols="80"
+        rows="12"
+        disabled="true"
+      ></textarea>
+      <div id="controls"></div>
+      <label for="author">Name: </label><input id="author" type="text" /><br />
+      <label for="content">Message: </label
+      ><input id="content" type="text" /><br />
+      <input type="button" value="Send" id="submit" />
+      <input type="button" value="Refresh" id="refresh" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
